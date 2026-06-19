@@ -25,7 +25,7 @@
     "test:build": "pnpm build:deps && tsc -p tsconfig.tests.json",
     "check": "pnpm typecheck && pnpm build && pnpm test",
     "typecheck": "pnpm build:deps && tsc --noEmit && tsc -p tsconfig.renderer.json --noEmit",
-    "build:main": "pnpm build:deps && tsc",
+    "build:main": "tsc",
     "build:renderer": "vite build",
     "dev:renderer": "vite --host 127.0.0.1",
     "build": "pnpm build:main && pnpm build:renderer"
