@@ -1,0 +1,38 @@
+{
+  "manifestVersion": 3,
+  "id": "openpets.night-owl",
+  "name": "$t:plugin.name",
+  "description": "$t:plugin.description",
+  "version": "1.0.0",
+  "runtime": "javascript",
+  "icon": "moon",
+  "sdkVersion": "3.0.0",
+  "entry": "index.js",
+  "assets": {
+    "icons": {
+      "night-owl": "assets/night-owl.svg"
+    }
+  },
+  "permissions": [
+    "pet:speak",
+    "pet:interact",
+    "schedule",
+    "storage",
+    "events",
+    "commands"
+  ],
+  "configSchema": {
+    "nightTriggerTime": {
+      "type": "time",
+      "default": "23:00",
+      "label": "$t:config.nightTriggerTime.label",
+      "description": "$t:config.nightTriggerTime.description"
+    },
+    "enableNightReminder": {
+      "type": "boolean",
+      "default": true,
+      "label": "$t:config.enableNightReminder.label",
+      "description": "$t:config.enableNightReminder.description"
+    }
+  }
+}

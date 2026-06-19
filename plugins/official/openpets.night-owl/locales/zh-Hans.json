@@ -1,0 +1,14 @@
+{
+  "plugin.name": "夜猫提醒",
+  "plugin.description": "检测深夜活动，温柔地提醒你该休息了。",
+  "config.nightTriggerTime.label": "夜晚开始时间",
+  "config.nightTriggerTime.description": "触发夜晚提醒的本地时间。",
+  "config.enableNightReminder.label": "启用夜晚提醒",
+  "config.enableNightReminder.description": "每晚如果你还在活动就显示提醒。",
+  "command.remindNow.title": "立即提醒",
+  "command.remindNow.description": "立即显示一次夜晚提醒。",
+  "command.pauseToday.title": "今晚暂停",
+  "command.pauseToday.description": "跳过今晚的提醒。",
+  "speech.nightReminder": "夜深了，该收工休息了。明天还有明天的事。",
+  "speech.paused": "今晚已暂停。我明天再提醒你。"
+}

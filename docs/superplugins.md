@@ -54,6 +54,8 @@ Current lineup (verified 2026-06-13 against the folder + manifests):
 | `openpets.launch-buddy` | Launch/checklist companion for shipping moments |
 | `openpets.magic-8-ball` | Command-driven decision/fortune responses |
 | `openpets.fortune-cookie` | Periodic or command-triggered fortunes |
+| `openpets.work-life` | Continuous active-time tracking with break nudges and idle detection |
+| `openpets.night-owl` | Late-night activity detection with rest reminders |
 
 `plugins/official/codemap.md` carries the per-plugin SDK-surface breakdown.
 

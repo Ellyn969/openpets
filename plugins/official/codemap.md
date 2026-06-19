@@ -32,6 +32,8 @@ First-party SDK v3 plugin product source. These plugins are the reviewed default
 | `openpets.mood-check-in` | Mood logging/check-in companion with configurable prompts and command entry points. | `schedule`, `storage`, `commands`, `pet`, `config` |
 | `openpets.fortune-cookie` | Periodic or command-triggered fortune messages. | `schedule`, `storage`, `commands`, `pet.speak` |
 | `openpets.virtual-pet` | Tamagotchi-style companion state machine with hunger/energy/happiness/affection decay, pinned HUD, click handling, and action commands. | `events`, `schedule`, `storage`, `ui.bubble`, `commands`, `pet.react`, `assets`, `audio`, `config` |
+| `openpets.work-life` | Continuous active-time tracking with break nudges, idle detection, and configurable work thresholds. | `events`, `schedule`, `storage`, `status`, `commands`, `pet`, `ui.alert`, `config` |
+| `openpets.night-owl` | Late-night activity detection with scheduled and idle-exit rest reminders. | `events`, `schedule`, `storage`, `commands`, `pet`, `config` |
 
 ## Integration Points
 

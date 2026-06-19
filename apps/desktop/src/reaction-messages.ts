@@ -30,6 +30,10 @@ export const reactionMessagePools = {
     "Scanning details",
     "Building a plan",
     "Following clues",
+    "AI is pondering life, the universe, and your code…",
+    "Brainstorm in progress. Please hold.",
+    "Deep in thought. That's a good sign.",
+    "Thinking cap: ON. Results incoming.",
   ],
   working: [
     "In progress",
@@ -58,6 +62,10 @@ export const reactionMessagePools = {
     "Shaping the patch",
     "Reworking code",
     "Tidying files",
+    "AI is typing furiously while you watch me. Bright futures await us both.",
+    "Keyboard's on fire. No rush — the code isn't going anywhere.",
+    "AI is cranking out code. Might be a good time to grab some water.",
+    "Code flows like water, keys fly like lightning. AI's got your back.",
   ],
   running: [
     "Starting task",

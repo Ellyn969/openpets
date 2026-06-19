@@ -1,0 +1,14 @@
+{
+  "plugin.name": "Night Owl",
+  "plugin.description": "Detects late-night activity and gently nudges you to wind down and rest.",
+  "config.nightTriggerTime.label": "Night start time",
+  "config.nightTriggerTime.description": "Local time when the night reminder activates.",
+  "config.enableNightReminder.label": "Enable night reminder",
+  "config.enableNightReminder.description": "Show a reminder each night if you're still active.",
+  "command.remindNow.title": "Remind me now",
+  "command.remindNow.description": "Show the night reminder once, right now.",
+  "command.pauseToday.title": "Pause tonight",
+  "command.pauseToday.description": "Skip tonight's reminder.",
+  "speech.nightReminder": "It's getting late. Time to wrap up and get some rest.",
+  "speech.paused": "Paused for tonight. I'll remind you again tomorrow."
+}

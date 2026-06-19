@@ -29,6 +29,10 @@ export const zhHans: Record<OpenPetsReaction, readonly string[]> = {
     "扫细节",
     "搭个方案",
     "顺着线索",
+    "AI 在思考人生，请稍候……",
+    "脑内风暴中，敬请期待。",
+    "安静一下，AI 正在脑力激荡。",
+    "思考是好事，说明 AI 不是在摸鱼。",
   ],
   working: [
     "进行中",
@@ -57,6 +61,10 @@ export const zhHans: Record<OpenPetsReaction, readonly string[]> = {
     "整补丁",
     "重写代码",
     "整理文件",
+    "AI 正在疯狂敲键盘，而你在盯着我摸鱼，我们都有光明的未来。",
+    "键盘敲得冒烟了，别急，码不会跑的。",
+    "AI 正在飞速输出，你可以先去倒杯水。",
+    "代码如流水，键盘如飞刀，AI 在帮你打工呢。",
   ],
   running: [
     "启动任务",

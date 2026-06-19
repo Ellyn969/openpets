@@ -72,8 +72,8 @@ export type PluginServiceOptions = {
   readonly capabilities?: PluginHostCapabilities;
 };
 
-export const bundledOfficialPluginIds = ["openpets.reminders", "openpets.virtual-pet"] as const;
-const bundledEnabledByDefault = new Set<string>(["openpets.reminders", "openpets.virtual-pet"]);
+export const bundledOfficialPluginIds = ["openpets.reminders", "openpets.virtual-pet", "openpets.work-life", "openpets.night-owl"] as const;
+const bundledEnabledByDefault = new Set<string>(["openpets.reminders", "openpets.virtual-pet", "openpets.work-life", "openpets.night-owl"]);
 const staleBundledPluginIds = ["openpets.daily-reminders", "openpets.pomodoro", "openpets.ambient-companion", "openpets.break-buddy", "openpets.focus-buddy", "openpets.github-notifications", "openpets.pet-pal", "openpets.quick-reminders", "openpets.wander-buddy"] as const;
 
 export class PluginService {
